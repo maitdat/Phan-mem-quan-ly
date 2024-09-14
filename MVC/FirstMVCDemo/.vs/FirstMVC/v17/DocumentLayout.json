@@ -1,0 +1,596 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\FirstMVC.csproj|c:\\users\\admin\\source\\repos\\phan-mem-quan-ly\\mvc\\firstmvcdemo\\student\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\FirstMVC.csproj|solutionrelative:student\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Migrations\\20240914072547_create student entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Student\\Migrations\\20240914072547_create student entity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\Student.csproj|C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\student\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\Student.csproj|solutionrelative:student\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\FirstMVC.csproj|c:\\users\\admin\\source\\repos\\phan-mem-quan-ly\\mvc\\firstmvcdemo\\student\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\FirstMVC.csproj|solutionrelative:student\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\FirstMVC.csproj|c:\\users\\admin\\source\\repos\\phan-mem-quan-ly\\mvc\\firstmvcdemo\\student\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\FirstMVC.csproj|solutionrelative:student\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\Student.csproj|C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\student\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\Student.csproj|solutionrelative:student\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\FirstMVC.csproj|c:\\users\\admin\\source\\repos\\phan-mem-quan-ly\\mvc\\firstmvcdemo\\student\\models\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\FirstMVC.csproj|solutionrelative:student\\models\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\Student.csproj|C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\student\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\Student.csproj|solutionrelative:student\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\FirstMVC.csproj|c:\\users\\admin\\source\\repos\\phan-mem-quan-ly\\mvc\\firstmvcdemo\\student\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\FirstMVC.csproj|solutionrelative:student\\views\\students\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\FirstMVC.csproj|c:\\users\\admin\\source\\repos\\phan-mem-quan-ly\\mvc\\firstmvcdemo\\student\\views\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\FirstMVC.csproj|solutionrelative:student\\views\\students\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\FirstMVC.csproj|c:\\users\\admin\\source\\repos\\phan-mem-quan-ly\\mvc\\firstmvcdemo\\student\\views\\students\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\FirstMVC.csproj|solutionrelative:student\\views\\students\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\FirstMVC.csproj|c:\\users\\admin\\source\\repos\\phan-mem-quan-ly\\mvc\\firstmvcdemo\\student\\views\\students\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\FirstMVC.csproj|solutionrelative:student\\views\\students\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\FirstMVC.csproj|c:\\users\\admin\\source\\repos\\phan-mem-quan-ly\\mvc\\firstmvcdemo\\student\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\FirstMVC.csproj|solutionrelative:student\\views\\students\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\FirstMVC.csproj|c:\\users\\admin\\source\\repos\\phan-mem-quan-ly\\mvc\\firstmvcdemo\\student\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\FirstMVC.csproj|solutionrelative:student\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\FirstMVC.csproj|c:\\users\\admin\\source\\repos\\phan-mem-quan-ly\\mvc\\firstmvcdemo\\student\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\FirstMVC.csproj|solutionrelative:student\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\Student.csproj|C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\student\\models\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\Student.csproj|solutionrelative:student\\models\\entities\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\FirstMVC.csproj|C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\student\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\FirstMVC.csproj|solutionrelative:student\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\Student.csproj|C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\student\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\Student.csproj|solutionrelative:student\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\FirstMVC.csproj|c:\\users\\admin\\source\\repos\\phan-mem-quan-ly\\mvc\\firstmvcdemo\\student\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\FirstMVC.csproj|solutionrelative:student\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\Student.csproj|C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\student\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\Student.csproj|solutionrelative:student\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\Student.csproj|C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\student\\controllers\\maitiendatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\Student.csproj|solutionrelative:student\\controllers\\maitiendatcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\FirstMVC.csproj|C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\student\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\FirstMVC.csproj|solutionrelative:student\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\FirstMVC.csproj|C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\student\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\FirstMVC.csproj|solutionrelative:student\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\Student.csproj|C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\student\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\Student.csproj|solutionrelative:student\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\Student.csproj|C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\student\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\Student.csproj|solutionrelative:student\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\Student.csproj|C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\student\\models\\entities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\Student.csproj|solutionrelative:student\\models\\entities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\Student.csproj|C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\student\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\Student.csproj|solutionrelative:student\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\Student.csproj|C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\student\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\Student.csproj|solutionrelative:student\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\Student.csproj|C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\student\\views\\maitiendat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\Student.csproj|solutionrelative:student\\views\\maitiendat\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\Student.csproj|C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\student\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\Student.csproj|solutionrelative:student\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\Student.csproj|C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\student\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4062DABC-245F-4E91-AEE7-931D88DE3469}|Student\\Student.csproj|solutionrelative:student\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 15,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20240914072547_create student entity.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Migrations\\20240914072547_create student entity.cs",
+              "RelativeDocumentMoniker": "Student\\Migrations\\20240914072547_create student entity.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Migrations\\20240914072547_create student entity.cs",
+              "RelativeToolTip": "Student\\Migrations\\20240914072547_create student entity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T07:25:47.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\appsettings.json",
+              "RelativeDocumentMoniker": "Student\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\appsettings.json*",
+              "RelativeToolTip": "Student\\appsettings.json*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-14T07:23:46.038Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "Student\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "Student\\Controllers\\StudentsController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowD8AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T07:23:28.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Student\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Student\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACIAAAB5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T07:23:17.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Views\\Students\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Student\\Views\\Students\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Views\\Students\\Edit.cshtml",
+              "RelativeToolTip": "Student\\Views\\Students\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T07:22:47.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Views\\Students\\Details.cshtml",
+              "RelativeDocumentMoniker": "Student\\Views\\Students\\Details.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Views\\Students\\Details.cshtml",
+              "RelativeToolTip": "Student\\Views\\Students\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T07:22:43.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Views\\Students\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Student\\Views\\Students\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Views\\Students\\Delete.cshtml",
+              "RelativeToolTip": "Student\\Views\\Students\\Delete.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T07:22:31.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Student\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Student\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T07:20:40.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Models\\Entities\\Student.cs",
+              "RelativeDocumentMoniker": "Student\\Models\\Entities\\Student.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Models\\Entities\\Student.cs",
+              "RelativeToolTip": "Student\\Models\\Entities\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T07:20:31.016Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Views\\Students\\Create.cshtml",
+              "RelativeDocumentMoniker": "Student\\Views\\Students\\Create.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Views\\Students\\Create.cshtml",
+              "RelativeToolTip": "Student\\Views\\Students\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T07:20:11.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Student\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Student\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T07:19:39.035Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Program.cs",
+              "RelativeDocumentMoniker": "Student\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Program.cs",
+              "RelativeToolTip": "Student\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T07:19:05.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Views\\Students\\Index.cshtml",
+              "RelativeDocumentMoniker": "Student\\Views\\Students\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Views\\Students\\Index.cshtml",
+              "RelativeToolTip": "Student\\Views\\Students\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T07:18:00.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Student\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Student\\Data\\AppDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T07:15:40.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Student\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Student\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T07:13:31.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Student\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Student\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T07:13:31.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Controllers\\StudentsController.cs",
+              "RelativeDocumentMoniker": "Student\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Controllers\\StudentsController.cs",
+              "RelativeToolTip": "Student\\Controllers\\StudentsController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAowD8AAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T07:10:22.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Program.cs",
+              "RelativeDocumentMoniker": "Student\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Program.cs",
+              "RelativeToolTip": "Student\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T06:42:12.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\appsettings.json",
+              "RelativeDocumentMoniker": "Student\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\appsettings.json",
+              "RelativeToolTip": "Student\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAClAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-14T06:41:27.598Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Models\\Entities\\Account.cs",
+              "RelativeDocumentMoniker": "Student\\Models\\Entities\\Account.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Models\\Entities\\Account.cs",
+              "RelativeToolTip": "Student\\Models\\Entities\\Account.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T06:36:57.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Student\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Student\\Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T06:36:41.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Student\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Student\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T06:24:13.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Models\\Entities\\Student.cs",
+              "RelativeDocumentMoniker": "Student\\Models\\Entities\\Student.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Models\\Entities\\Student.cs",
+              "RelativeToolTip": "Student\\Models\\Entities\\Student.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T06:13:50.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "Student\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "Student\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T05:52:45.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Student\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Student\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T05:52:45.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Student\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Student\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T05:52:45.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Student\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Student\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T05:52:45.294Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Student\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Student\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACIAAAB5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T05:52:45.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Student\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Student\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T05:52:45.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Views\\MaiTienDat\\Index.cshtml",
+              "RelativeDocumentMoniker": "Student\\Views\\MaiTienDat\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Views\\MaiTienDat\\Index.cshtml",
+              "RelativeToolTip": "Student\\Views\\MaiTienDat\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-14T05:52:45.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "MaiTienDatController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Controllers\\MaiTienDatController.cs",
+              "RelativeDocumentMoniker": "Student\\Controllers\\MaiTienDatController.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\Phan-mem-quan-ly\\MVC\\FirstMVCDemo\\Student\\Controllers\\MaiTienDatController.cs",
+              "RelativeToolTip": "Student\\Controllers\\MaiTienDatController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T05:52:47.151Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 114,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

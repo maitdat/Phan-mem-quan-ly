@@ -1,8 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Student.Models;
+﻿using FirstMVC.Models;
+using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace Student.Controllers
+namespace FirstMVC.Controllers
 {
     public class HomeController : Controller
     {
