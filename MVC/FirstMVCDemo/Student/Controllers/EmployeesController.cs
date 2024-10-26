@@ -20,9 +20,11 @@ namespace FirstMVC.Controllers
         }
 
         // GET: Employees
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchString)
         {
-            return View(await _context.Employee.ToListAsync());
+            if(!string.IsNullOrEmpty(searchString))
+                return View(await _context.Employee.Where(x=>x.HoTen.Contains(searchString)).ToListAsync());
+            return  View(await _context.Employee.ToListAsync());
         }
 
         // GET: Employees/Details/5
