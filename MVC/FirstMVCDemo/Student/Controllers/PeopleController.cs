@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
+﻿using Azure.Core;
 using FirstMVC.Data;
 using FirstMVC.Models.Entities;
+using FirstMVC.Ulities;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using OfficeOpenXml;
+using System.IO;
+
 
 namespace FirstMVC.Controllers
 {
@@ -49,6 +49,7 @@ namespace FirstMVC.Controllers
             return View();
         }
 
+
         // POST: People/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
@@ -63,6 +64,37 @@ namespace FirstMVC.Controllers
                 return RedirectToAction(nameof(Index));
             }
             return View(person);
+        }
+
+        [HttpPost]
+        public IActionResult ImportDataFromXlsx(IFormFile file)
+        {
+
+            if(file!= null && file.Length > 0)
+            {
+                var people = new List<Person>();
+                ExcelPackage.LicenseContext = LicenseContext.NonCommercial; 
+                using(var stream = file.OpenReadStream())
+                using (var package = new ExcelPackage(stream))
+                {
+                    var worksheet = package.Workbook.Worksheets[0];
+                    var rowCount = worksheet.Dimension.Rows;
+                    for(int row = 2; row < rowCount; row++)
+                    {
+                        var person = new Person
+                        {
+                            //Id = int.Parse(worksheet.Cells[row,1].Text),
+                            HoTen = worksheet.Cells[row,2].Text,
+                            Age = int.Parse(worksheet.Cells[row,3].Text)
+                        };
+                        people.Add(person);
+                    }
+                }
+                _context.Person.AddRangeAsync(people);
+                _context.SaveChanges();
+                return View("Index",people);
+            }
+            return View("Index");
         }
 
         // GET: People/Edit/5
@@ -152,6 +184,33 @@ namespace FirstMVC.Controllers
         private bool PersonExists(int id)
         {
             return _context.Person.Any(e => e.Id == id);
+        }
+
+        // GET : Export Excel
+        public async Task<IActionResult> ExportExcel()
+        {
+            
+            var tenSheet = "Person";
+            List<string> headerExcel = new List<string>
+            {
+                "Id",
+                "Họ tên",
+                "Tuổi",
+                
+            };
+            var listPerson = _context.Person.Select(x => new List<string>
+            {
+                x.Id.ToString(),
+                x.HoTen,
+                x.Age.ToString(),
+            }).ToList();
+
+            ExcelPackage file = await Utilities.ExportExcel(tenSheet, headerExcel, listPerson, "A1", 3, 4);
+            using (MemoryStream ms = new MemoryStream())
+            {
+                file.SaveAs(ms);
+                return File(ms.ToArray(), "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "Person.xlsx");
+            }
         }
     }
 }

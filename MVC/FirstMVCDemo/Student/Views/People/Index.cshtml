@@ -8,7 +8,14 @@
 
 <p>
     <a asp-action="Create">Create New</a>
-</p>z
+    <br />
+    <form asp-action="ImportDataFromXlsx" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" />
+        <button type="submit">Upload</button>
+    </form>
+    <br />
+    <a asp-action="ExportExcel">Export Excel</a>
+</p>
 <table class="table">
     <thead>
         <tr>
